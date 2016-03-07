@@ -18,12 +18,15 @@
 ### diff\_project.py
 
 参照demo,将脚本添加到工程中：
+
 	Target -> Build Phases -> New Run Script Phase
 
 在输入框中填写为：
+
 	python 路径+diff_project.py
 
 例如:
+
 	python ./Scripts/diff_project.py
 
 ### gen\_zh.py
