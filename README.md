@@ -31,7 +31,7 @@
 
 ### gen\_zh.py
 
-和`diff\_project.py`基本一致，只是这个脚本需要PyObjc框架，需要提前安装一下，建议使用pip安装:
+和`diff_project.py`基本一致，只是这个脚本需要PyObjc框架，需要提前安装一下，建议使用pip安装:
 
 	pip install pyobjc
 
