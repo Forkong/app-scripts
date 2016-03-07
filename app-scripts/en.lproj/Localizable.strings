@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  app-scripts
+
+  Created by Fujun on 16/3/7.
+  Copyright © 2016年 Fujun. All rights reserved.
+*/
+"商务座" = "business seat";
+"特等座" = "special seat";
+"一等座" = "first-class seat";
+"二等座" = "second-class seat";
+"高级软卧" = "deluxe soft sleeper";
+"软卧" = "soft sleeper";
+"硬卧" = "hard sleeper";
+"软座" = "soft seat";
+"硬座" = "hard seat";
+"无座" = "standing";

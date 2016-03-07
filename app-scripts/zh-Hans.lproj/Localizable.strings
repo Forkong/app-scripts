@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  app-scripts
+
+  Created by Fujun on 16/3/7.
+  Copyright © 2016年 Fujun. All rights reserved.
+*/
+"商务座" = "商务座";
+"特等座" = "特等座";
+"一等座" = "一等座";
+"二等座" = "二等座";
+"高级软卧" = "高级软卧";
+"软卧" = "软卧";
+"硬卧" = "硬卧";
+"软座" = "软座";
+"硬座" = "硬座";
+"无座" = "无座";
