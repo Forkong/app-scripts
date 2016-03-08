@@ -11,7 +11,7 @@
 - gen\_zh.py - 从`Localizable.strings (English)`上自动生成`Localizable.strings (Chinese)`的脚本
 - cal\_code.py - 计算工程总代码量和有效代码量的脚本
 - cal\_svn\_commit.py - 统计SVN commit行数的脚本,自动diff并统计commit增删代码量（即将开源）
- - jsonserver.py - 用于代理并返回静态json的脚本，基于web.py，主要用于自我调试（即将开源）
+- jsonserver.py - 用于代理并返回静态json的脚本，基于web.py，主要用于自我调试（即将开源）
 
 ## How to use it?
 ---- 
