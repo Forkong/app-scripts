@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "msg": "成功",
+  "errorCode": 21000,
+  "data": {
+    "groupId": "1",
+    "groupName": "团名称",
+    "ownerName": "王征",
+    "ownerContact": "18600000000",
+    "groupState": "0",
+    "guideConfirmState": "0",
+    "productList": [
+      {
+        "productId": "1001",
+        "productName": "线路名称-南京游"
+      },
+      {
+        "productId": "1002",
+        "productName": "线路名称-南京游"
+      }
+    ],
+    "groupDate": "2015-12-28",
+    "signAdultCount": "2",
+    "signChildCount": "3",
+    "days": "2",
+    "busList": [
+      {
+        "busNumber": "100",
+        "agnecyId": "江南公交",
+        "busTypeName": "金龙大巴",
+        "licensePlateNumber": "苏A0000",
+        "driverName": "弯弯",
+        "contactNumber": "18600000000"
+      }
+    ]
+  }
+}

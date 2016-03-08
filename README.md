@@ -87,7 +87,25 @@ demo中将此脚本直接添加于`Build Phases`中，是为了方便演示，�
 
 ### jsonserver.py
 
-暂未开源。
+`jsonserver.py`依托于[web.py](http://webpy.org/)框架，在使用此脚本之前，必须安装web.py框架:
+
+    pip install web.py
+    
+`web.py`使用起来非常方便，入门又非常简单，非常适合我们这种使用场景。
+
+现在业界比较流行的微web框架是`Flask`,`Flask`的用户量很大，开源的三方更多，如果你要做小型网站的话，`Flask`还是非常适合的。
+
+运行方式:
+	
+	python jsonserver.py (+ 端口号，默认为8080)
+	python jsonserver.py 
+	python jsonserver.py 1234
+
+`jsonserver`中的	`static`文件夹保存的是静态资源，只需要将返回的静态json放置于`static`文件夹中，在代码中直接返回即可。
+
+如果对于`web.py`有疑问的，可以直接去官网查看官方文档，官方提供中文版支持。一般来说，看完基础文档也就只要半个小时、一个小时，速度很快。这也体现了这个框架的简洁、高效、轻量级。	
+
+成功之后，将手机连到电脑ip上即可。
 
 ## License
 ---- 
