@@ -11,7 +11,7 @@
 - gen\_zh.py - 从`Localizable.strings (English)`上自动生成`Localizable.strings (Chinese)`的脚本。
 - cal\_code.py - 计算工程总代码量和有效代码量的脚本。
 - cal\_svn\_commit.py - 统计SVN commit行数的脚本,自动diff并统计commit增删代码量。
-- jsonserver.py - 用于代理并返回静态json的脚本，基于web.py，主要用于自我调试（即将开源）
+- jsonserver.py - 用于代理并返回静态json的脚本，基于`web.py`，主要用于自我调试。
 
 ## How to use it?
 ---- 
@@ -31,18 +31,17 @@
 
 在每次编译后，输出结果会出现在这里:
 
-![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_diff_location.png)
+![image](https://raw.githubusercontent.com/Forkong/app-scripts/master/Screenshots/blogimage_script_diff_location.png)
 
 点击对应的Build,可以看到输出结果:
 
-![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_diff_result.png)
+![image](https://raw.githubusercontent.com/Forkong/app-scripts/master/Screenshots/blogimage_script_diff_result.png)
 
 ### gen\_zh.py
 
 使用过程和`diff_project.py`基本一致，依然在Build中查看输出结果：
 
-![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_gen_zh.png)
-
+![image](https://raw.githubusercontent.com/Forkong/app-scripts/master/Screenshots/blogimage_script_gen_zh.png)
 
 只是这个脚本需要使用`PyObjc`框架，需要提前安装一下，建议使用`pip`安装:
 
@@ -69,8 +68,7 @@ demo中将此脚本直接添加于`Build Phases`中，是为了方便演示，�
 	
 在终端中输出结果一般如下：
 
-![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_code.png)
-
+![image](https://raw.githubusercontent.com/Forkong/app-scripts/master/Screenshots/blogimage_script_code.png)
 
 ### cal\_svn\_commit.py  
 
@@ -83,7 +81,7 @@ demo中将此脚本直接添加于`Build Phases`中，是为了方便演示，�
 
 原理是读取目录的`svn log`,从log上获取版本号，之后使用`svn diff`命令diff版本差异，再从输出的log上统计增删的代码量，之后汇总输出。结果类似于下图：
 
-![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_5.png)
+![image](https://raw.githubusercontent.com/Forkong/app-scripts/master/Screenshots/blogimage_script_svn.png)
 
 ### jsonserver.py
 
