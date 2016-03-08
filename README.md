@@ -29,15 +29,28 @@
 
 	python ./Scripts/diff_project.py
 
+在每次编译后，输出结果会出现在这里:
+
+![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_diff_location.png)
+
+点击对应的Build,可以看到输出结果:
+
+![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_diff_result.png)
+
 ### gen\_zh.py
 
-和`diff_project.py`基本一致，只是这个脚本需要使用PyObjc框架，需要提前安装一下，建议使用pip安装:
+使用过程和`diff_project.py`基本一致，依然在Build中查看输出结果：
+
+![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_gen_zh.png)
+
+
+只是这个脚本需要使用`PyObjc`框架，需要提前安装一下，建议使用`pip`安装:
 
 	pip install pyobjc
 	
-如果没有安装pip的话，可以去[官网](https://pip.pypa.io/en/stable/)安装一下。
+如果没有安装`pip`的话，可以去[官网](https://pip.pypa.io/en/stable/)安装一下。
 
-由于我们无法要求每个mac都安装有`pyobjc`库，所以我们必须通过其他办法来让别人也可以运行，比如：
+由于我们无法要求每个Mac都安装有`pyobjc`库，所以我们必须通过其他办法来让别人也可以运行，比如：
 
 - [virtualenv](https://github.com/pypa/virtualenv)(python 虚拟机)
 - [PyInstaller](https://github.com/pyinstaller/pyinstaller)(打包成可执行文件)
@@ -53,6 +66,11 @@ demo中将此脚本直接添加于`Build Phases`中，是为了方便演示，�
 	python cal_code.py (+ 目录)
 	python cal_code.py 
 	python cal_code.py ../
+	
+在终端中输出结果一般如下：
+
+![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_code.png)
+
 
 ### cal\_svn\_commit.py  
 
