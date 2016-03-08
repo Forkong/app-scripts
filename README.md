@@ -7,10 +7,10 @@
 ---- 
 这些是我在途牛开发NB-App中使用到的一些脚本，其中包括：
 
-- diff\_project.py - 用于对比单个project中的多个target的脚本
-- gen\_zh.py - 从`Localizable.strings (English)`上自动生成`Localizable.strings (Chinese)`的脚本
-- cal\_code.py - 计算工程总代码量和有效代码量的脚本
-- cal\_svn\_commit.py - 统计SVN commit行数的脚本,自动diff并统计commit增删代码量（即将开源）
+- diff\_project.py - 用于对比单个project中的多个target的脚本。
+- gen\_zh.py - 从`Localizable.strings (English)`上自动生成`Localizable.strings (Chinese)`的脚本。
+- cal\_code.py - 计算工程总代码量和有效代码量的脚本。
+- cal\_svn\_commit.py - 统计SVN commit行数的脚本,自动diff并统计commit增删代码量。
 - jsonserver.py - 用于代理并返回静态json的脚本，基于web.py，主要用于自我调试（即将开源）
 
 ## How to use it?
@@ -56,7 +56,16 @@ demo中将此脚本直接添加于`Build Phases`中，是为了方便演示，�
 
 ### cal\_svn\_commit.py  
 
-暂未开源。
+由于SVN的特殊性，必须要在线连接到SVN服务器，否则无法统计。
+
+    //使用方式
+    python cal_svn_commit.py (+ 目录) (+ 统计版本个数)
+    python cal_svn_commit.py
+    python cal_svn_commit.py ./ 5
+
+原理是读取目录的`svn log`,从log上获取版本号，之后使用`svn diff`命令diff版本差异，再从输出的log上统计增删的代码量，之后汇总输出。结果类似于下图：
+
+![image](http://7i7i81.com1.z0.glb.clouddn.com/blogimage_script_5.png)
 
 ### jsonserver.py
 
