@@ -25,6 +25,7 @@ def getContribution(path, last, revision):
 
     cmd = "cd "+path+" && "+ "svn diff -r" + last + ":" + revision
     # print cmd
+    print "svn diff -r" + last + ":" + revision
     p = os.popen(cmd, "r")
     
     isNeedDiff = False
