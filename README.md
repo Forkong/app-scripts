@@ -1,7 +1,7 @@
 # app-scripts
 ---- 
 
-详细介绍可参考我的博客[开发NB-App中使用的脚本们](#)(http://ifujun.com/kai-fa-nb-appzhong-shi-yong-de-jiao-ben-men/)
+详细介绍可参考我的博客 -- [开发NB-App中使用的脚本们](http://ifujun.com/kai-fa-nb-appzhong-shi-yong-de-jiao-ben-men/)。
 
 ## What is this?
 ---- 
