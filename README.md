@@ -5,7 +5,7 @@
 
 ## What is this?
 ---- 
-这些是我在途牛开发NB-App中使用到的一些脚本，其中包括：
+这些是我在开发NB-App中使用到的一些脚本，其中包括：
 
 - diff\_project.py - 用于对比单个project中的多个target的脚本。
 - gen\_zh.py - 从`Localizable.strings (English)`上自动生成`Localizable.strings (Chinese)`的脚本。
